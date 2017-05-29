@@ -63,7 +63,7 @@ ShadowsocksR-libev for OpenWrt
    timeout        | 数值       | 超时时间（秒）, 默认 60
    fast_open      | 布尔值     | 是否启用 [TCP-Fast-Open][F], 只适用于 ss-local
    nofile         | 数值       | 设置 Linux ulimit
-   protocol       | 协议插件   | 客户端的协议插件，推荐使用[auth_sha1_v4, auth_aes128_md5, auth_aes128_sha1][P]
+   protocol       | 协议插件   | 客户端的协议插件，推荐使用[auth_chain_a, auth_aes128_md5, auth_aes128_sha1][P]
    obfs           | 混淆插件   | 客户端的混淆插件，推荐使用[plain, http_simple, http_post, tls1.2_ticket_auth][P]
 
 
@@ -73,3 +73,4 @@ ShadowsocksR-libev for OpenWrt
   [F]: https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open
   [S]: https://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
   [P]: https://github.com/breakwa11/shadowsocks-rss/wiki/obfs
+
