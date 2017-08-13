@@ -13,7 +13,7 @@ PKG_RELEASE:=800f5ade143189f277045091e687998c9e0a2c39
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
-PKG_SOURCE_URL:=https://github.com/shadowsocksrr/shadowsocksr-libev.git
+PKG_SOURCE_URL:=-b Akkariiin/develop https://github.com/shadowsocksrr/shadowsocksr-libev.git
 PKG_SOURCE_VERSION:=$(PKG_RELEASE)
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE)
 
